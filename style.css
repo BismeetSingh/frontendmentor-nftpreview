@@ -40,6 +40,7 @@ p, span {
   row-gap: 1.5rem;
   border-radius: 10px;
   flex-wrap: wrap;
+  max-width: 32rem;
 }
 
 .details {
@@ -73,6 +74,7 @@ p, span {
 
 .avatar {
   background-color: hsl(216deg, 50%, 16%);
+  width: 3.6rem;
 }
 
 .image-description {
@@ -84,6 +86,7 @@ p, span {
 }
 .image-description:hover {
   color: hsl(178deg, 100%, 50%);
+  transition: color 2s ease-out 100ms;
 }
 
 .collection-details {
@@ -127,6 +130,7 @@ hr {
 }
 .name:hover {
   color: hsl(178deg, 100%, 50%);
+  transition: color 2s ease-out 100ms;
 }
 
 .visibility-container {
