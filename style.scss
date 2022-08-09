@@ -10,7 +10,9 @@
 
 
 body {
-    height: 100vh;
+    min-height: 100vh;
+    place-items: center;
+    display: grid;
     
 }
 
@@ -18,12 +20,11 @@ main {
    
     margin: auto;
     min-width: 100%;
-    min-height: 50%;
+    min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
 
 }
 
